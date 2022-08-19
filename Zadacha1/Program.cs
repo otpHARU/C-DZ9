@@ -22,7 +22,7 @@ int InputNumbers(string input)
 void PrintNumber(int M, int N)
 {
     if (N > M)
-    for (int i = M; i <= N; i++) Console.Write($"{i} ");
+        for (int i = M; i <= N; i++) Console.Write($"{i} ");
     else
         for (int i = N; i <= M; i++) Console.Write($"{i} ");
 }
